@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="McMoonPunch.exe" size="49664">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="McMoonPunch.exe" size="50176">
       <assemblyIdentity name="McMoonPunch" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>72NoEUyREU7tbCxKa/5wAXyaY+M=</dsig:DigestValue>
+        <dsig:DigestValue>anqKinbIIm2FZXKQ0Vrqp9ziCfw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

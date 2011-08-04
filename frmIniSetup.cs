@@ -39,11 +39,12 @@ namespace McMoonPunch
         {
             if (btnDownloadInstall.Text == "Finish && Close...")
             {
-                this.Hide();
+                DialogResult result = MessageBox.Show(String.Format("Your Minecraft Server has been installed to {0}\nThis is only a test version, there are going to be many more additions yet!", GlobalVar.cleanDir),"McMoonServer", MessageBoxButtons.OK);
+                Application.Exit();
+                //Close();
             }
             else
             {
-
                 dirSoap();
 
                 if (File.Exists(installDir))
